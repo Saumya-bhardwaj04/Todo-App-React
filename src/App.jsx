@@ -20,7 +20,6 @@ function App() {
     saveTodoLocalStore(newArr)
     setAllTodos(newArr);
   }
-
   function saveTodoLocalStore(todo) {
     localStorage.setItem("todos", JSON.stringify(todo))
   }
