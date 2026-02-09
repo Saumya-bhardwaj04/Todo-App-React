@@ -16,6 +16,10 @@ A simple todo app with title/description, saved in browser localStorage.
 - `npm run build` - production build
 - `npm run preview` - preview production build
 
+## Deploy (GitHub Pages)
+1. Build the site: `npm run build`
+2. In GitHub → Settings → Pages, set Source to **Deploy from a branch**, Branch: **main**, Folder: **/docs**
+
 ## Tech Stack
 - React 19, Vite
 - Tailwind CSS
